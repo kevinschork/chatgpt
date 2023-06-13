@@ -1,0 +1,10 @@
+
+// For format details, see https://aka.ms/devcontainer.json
+{
+	"name": "apim-esb-analysis",
+	"image": "python:3.10.10-slim-bullseye",
+	"containerEnv": {
+		"http_proxy": "http://zscaler.proxy.int.kn:80",
+		"https_proxy": "http://zscaler.proxy.int.kn:80"
+	}
+}
